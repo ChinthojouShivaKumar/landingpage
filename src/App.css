@@ -1,0 +1,122 @@
+/*Navbar*/
+
+/*Body*/
+
+
+.container1{
+  width: 1450px;
+  height: 500px;
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 10px 0px;
+}
+
+.container{
+  
+  padding: 5px;
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  background-color: whitesmoke;
+  
+  
+}
+.container:hover{
+
+  transform: scale(1.13);
+}
+.container h1{
+ 
+  font-size: xx-large;
+  font-weight: 700;
+}
+.container p {
+  line-height: 20px;
+}
+
+.imgg img{
+  position: relative;
+  top: 80px;
+  right: 120px;
+  float: right;
+  width: 600px;
+  height: 300px;
+  
+}
+.imgg img:hover{
+  box-shadow: 3px 3px 10px 0px;
+  border-radius: 10px;
+  transform: scale(1.13);
+}
+
+p>span{
+  color: red;
+}
+
+.button button{
+  position: absolute;
+  top: 380px;
+  left: 100px;
+  width: 80px;
+  height: 40px;
+  border: 1px solid skyblue;
+  background-color:skyblue;
+  color: white;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.button button:hover {
+  background-color: rgb(57, 183, 233);
+}
+.button span{
+  position: absolute;
+  top: 393px;
+  left: 200px;
+}
+
+.corsel h1{
+  position: relative;
+  top: 600px;
+  left: 75px;
+  width: fit-content;
+}
+.connection h1{
+  position: relative;
+  top: 680px;
+  left: 100px;
+  width: fit-content;
+}
+.connection2 h1{
+  position: relative;
+  top: 730px;
+  left: 100px;
+  width: fit-content;
+}
+
+.footer{
+  background-color: rgb(124, 119, 119);
+  position: relative;
+  top: 900px;
+  padding: 100px 0px;
+}
+
+.footer h1{
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 480px;
+  width: fit-content;
+}
+
+.footer img {
+  position: relative;
+  top: 50px;
+  left: 600px;
+  margin: 0px 30px;
+  width: 50px;
+  height: 50px;
+}
